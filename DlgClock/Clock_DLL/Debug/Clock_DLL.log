@@ -1,0 +1,23 @@
+﻿Build started 18/11/2015 22:39:55.
+     1>Project "D:\Projects\DlgClock\Clock_DLL\Clock_DLL.vcxproj" on node 3 (Rebuild target(s)).
+     1>ClCompile:
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\CL.exe /c /ZI /nologo /W3 /WX- /Od /Oy- /D WIN32 /D _DEBUG /D _WINDOWS /D _USRDLL /D CLOCK_DLL_EXPORTS /D _WINDLL /D _UNICODE /D UNICODE /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Yc"stdafx.h" /Fp"Debug\Clock_DLL.pch" /Fo"Debug\\" /Fd"Debug\vc120.pdb" /Gd /TP /analyze- /errorReport:prompt stdafx.cpp
+         stdafx.cpp
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\CL.exe /c /ZI /nologo /W3 /WX- /Od /Oy- /D WIN32 /D _DEBUG /D _WINDOWS /D _USRDLL /D CLOCK_DLL_EXPORTS /D _WINDLL /D _UNICODE /D UNICODE /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Yu"stdafx.h" /Fp"Debug\Clock_DLL.pch" /Fo"Debug\\" /Fd"Debug\vc120.pdb" /Gd /TP /analyze- /errorReport:prompt Clock_DLL.cpp
+         Clock_DLL.cpp
+     1>d:\projects\dlgclock\clock_dll\clock_dll.cpp(32): warning C4018: '<' : signed/unsigned mismatch
+     1>d:\projects\dlgclock\clock_dll\clock_dll.cpp(101): warning C4018: '<' : signed/unsigned mismatch
+     1>d:\projects\dlgclock\clock_dll\clock_dll.cpp(163): warning C4018: '<' : signed/unsigned mismatch
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\CL.exe /c /ZI /nologo /W3 /WX- /Od /Oy- /D WIN32 /D _DEBUG /D _WINDOWS /D _USRDLL /D CLOCK_DLL_EXPORTS /D _WINDLL /D _UNICODE /D UNICODE /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Debug\\" /Fd"Debug\vc120.pdb" /Gd /TP /analyze- /errorReport:prompt dllmain.cpp
+         dllmain.cpp
+       Link:
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"D:\Projects\DlgClock\Debug\Clock_DLL.dll" /INCREMENTAL /NOLOGO winmm.lib kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /DEF:"Clock_DLL.def" /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"D:\Projects\DlgClock\Debug\Clock_DLL.pdb" /SUBSYSTEM:WINDOWS /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"D:\Projects\DlgClock\Debug\Clock_DLL.lib" /MACHINE:X86 /DLL Debug\Clock_DLL.obj
+         Debug\dllmain.obj
+         Debug\stdafx.obj
+            Creating library D:\Projects\DlgClock\Debug\Clock_DLL.lib and object D:\Projects\DlgClock\Debug\Clock_DLL.exp
+         Clock_DLL.vcxproj -> D:\Projects\DlgClock\Debug\Clock_DLL.dll
+     1>Done Building Project "D:\Projects\DlgClock\Clock_DLL\Clock_DLL.vcxproj" (Rebuild target(s)).
+
+Build succeeded.
+
+Time Elapsed 00:00:01.86

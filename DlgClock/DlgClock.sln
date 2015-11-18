@@ -1,0 +1,28 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2013
+VisualStudioVersion = 12.0.21005.1
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "DlgClock", "DlgClock\DlgClock.vcxproj", "{63AEE93D-1539-44C5-AE78-CD709BB30505}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Clock_DLL", "Clock_DLL\Clock_DLL.vcxproj", "{5A0ACD0A-D93E-4937-8969-DA41F8B5A5E8}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Win32 = Debug|Win32
+		Release|Win32 = Release|Win32
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{63AEE93D-1539-44C5-AE78-CD709BB30505}.Debug|Win32.ActiveCfg = Debug|Win32
+		{63AEE93D-1539-44C5-AE78-CD709BB30505}.Debug|Win32.Build.0 = Debug|Win32
+		{63AEE93D-1539-44C5-AE78-CD709BB30505}.Release|Win32.ActiveCfg = Release|Win32
+		{63AEE93D-1539-44C5-AE78-CD709BB30505}.Release|Win32.Build.0 = Release|Win32
+		{5A0ACD0A-D93E-4937-8969-DA41F8B5A5E8}.Debug|Win32.ActiveCfg = Debug|Win32
+		{5A0ACD0A-D93E-4937-8969-DA41F8B5A5E8}.Debug|Win32.Build.0 = Debug|Win32
+		{5A0ACD0A-D93E-4937-8969-DA41F8B5A5E8}.Release|Win32.ActiveCfg = Release|Win32
+		{5A0ACD0A-D93E-4937-8969-DA41F8B5A5E8}.Release|Win32.Build.0 = Release|Win32
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

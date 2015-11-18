@@ -1,0 +1,7 @@
+EXPORTS
+_doLockKeyBoard @1
+_doPlayMusic @2
+_doRemoveHook @3
+_doShow_Hiden @4
+_doInitRunning @5
+_doReRunning @6
